@@ -17,6 +17,7 @@
               @foreach ($posts as $post)
            <div class='post'>
                <h2 class='restaurant'>{{$post->restaurant}}</h2>
+               </h2>
                <p class='body'>{{ $post->body }}</p>
            </div>
               @endforeach
